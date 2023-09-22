@@ -8,6 +8,7 @@ import { MenuTitleComponent } from './components/menu-title/menu-title.component
 import { DifferencesSectionComponent } from './components/differences-section/differences-section.component';
 import { HelpyouSectionComponent } from './components/helpyou-section/helpyou-section.component';
 import { FindusSectionComponent } from './components/findus-section/findus-section.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FindusSectionComponent } from './components/findus-section/findus-secti
     MenuTitleComponent,
     DifferencesSectionComponent,
     HelpyouSectionComponent,
-    FindusSectionComponent
+    FindusSectionComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

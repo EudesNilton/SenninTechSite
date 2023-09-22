@@ -1,0 +1,19 @@
+.container_menu-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .625rem 1.25rem;
+}
+.nav_menu-bar > ul{
+  display: flex;
+  gap: 1.25rem;
+
+  font-weight: 500;
+  text-transform: uppercase;
+
+  list-style-type: none;
+}
+.nav_menu-bar > ul > li > a{
+  text-decoration: none;
+}
+
